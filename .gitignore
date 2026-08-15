@@ -1,0 +1,15 @@
+# Secrets - NEVER commit this
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated/runtime data - frontend dev doesn't need your test uploads
+storage/videos/*
+storage/frames/*
+storage/chroma/*
+!storage/videos/.gitkeep
+!storage/frames/.gitkeep
+!storage/chroma/.gitkeep
